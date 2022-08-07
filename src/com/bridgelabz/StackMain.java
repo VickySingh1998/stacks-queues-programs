@@ -9,5 +9,14 @@ public class StackMain {
         stackFunction.push(56);
         stackFunction.myPrint();
 
+        stackFunction.peek();
+        stackFunction.pop();
+        stackFunction.myPrint();
+        stackFunction.peek();
+        stackFunction.pop();
+        stackFunction.myPrint();
+        stackFunction.peek();
+        stackFunction.pop();
+
     }
 }
