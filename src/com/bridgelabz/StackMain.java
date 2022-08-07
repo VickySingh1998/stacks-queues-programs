@@ -8,5 +8,6 @@ public class StackMain {
         stackFunction.push(30);
         stackFunction.push(56);
         stackFunction.myPrint();
+
     }
 }
