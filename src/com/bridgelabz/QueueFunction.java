@@ -7,7 +7,13 @@ public class QueueFunction {
     {
         queue.add(data);
     }
-
+    public void deQueue() {
+        if (queue.size() == 0) {
+            System.out.println("Queue List Is Empty");
+        } else {
+            queue.pop();
+        }
+    }
     public void toPrint() {
 
         System.out.println();

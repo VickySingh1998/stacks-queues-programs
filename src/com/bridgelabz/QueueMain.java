@@ -9,5 +9,14 @@ public class QueueMain {
         queueOperation.enQueue(30);
         queueOperation.enQueue(70);
         queueOperation.toPrint();
+
+
+        queueOperation.deQueue();
+        queueOperation.toPrint();
+        queueOperation.deQueue();
+        queueOperation.toPrint();
+        queueOperation.deQueue();
+        queueOperation.toPrint();
+        queueOperation.deQueue();
     }
 }

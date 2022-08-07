@@ -17,6 +17,8 @@ public class StackMain {
         stackFunction.myPrint();
         stackFunction.peek();
         stackFunction.pop();
+        stackFunction.myPrint();
+        stackFunction.pop();
 
     }
 }
